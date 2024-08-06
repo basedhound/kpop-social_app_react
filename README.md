@@ -30,13 +30,19 @@
 
 - [**Redux**](https://react-redux.js.org/introduction/getting-started) is a predictable state container for JavaScript apps, commonly used with libraries like React for managing application state. Redux centralizes the application's state in a single store, allowing you to write consistent, maintainable code with the ability to track state changes and debug easily. It relies on a unidirectional data flow, where actions are dispatched to reducers, which then update the state in an immutable way.
 
+- [**REST API**](https://blog.postman.com/rest-api-examples/) (Representational State Transfer Application Programming Interface) is a specific type of API that adheres to the principles of REST, an architectural style for designing networked applications. REST APIs use standard HTTP methods (GET, POST, PUT, DELETE) to interact with resources, which are typically represented in JSON or XML format. REST APIs are stateless, meaning each request from a client to the server must contain all the information needed to understand and process the request. This approach simplifies the interactions between client and server and ensures scalability and performance.
+
+- [**Node.js**](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to execute JavaScript on the server side, enabling the creation of scalable and high-performance applications. Node.js's non-blocking, event-driven architecture makes it particularly suitable for building real-time, data-intensive applications.
+
+- [**NPM**](https://nodejs.org/en/learn/getting-started/an-introduction-to-the-npm-package-manager) (Node Package Manager) is the default package manager for Node.js. It allows developers to install, share, and manage dependencies in their projects. NPM provides access to a vast repository of open-source packages, facilitating the rapid development and integration of new features.
+
+- [**Express**](https://expressjs.com/en/starter/installing.html) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It facilitates the rapid development of Node-based web applications, with features like routing, middleware support, and template engines.
+
 - [**Bcrypt**](https://www.npmjs.com/package/bcrypt) is a library used to hash passwords, providing security by making it computationally difficult to reverse the hashing process. It includes features such as salting, which adds additional randomness to the hashes, making them more secure against dictionary attacks and brute-force attacks.
 
 - [**CORS**](https://www.npmjs.com/package/cors) (Cross-Origin Resource Sharing) is a node.js package for providing a Connect/Express middleware that can be used to enable CORS with various options. CORS is a security feature that allows or restricts requested resources on a web server depending on where the HTTP request was initiated.
 
 - [**Dotenv**](https://www.npmjs.com/package/dotenv) is a zero-dependency module that loads environment variables from a .env file into process.env. This package helps keep sensitive configuration data out of the codebase and allows different configurations for various environments like development, testing, and production.
-
-- [**Express**](https://expressjs.com/en/starter/installing.html) is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. It facilitates the rapid development of Node-based web applications, with features like routing, middleware support, and template engines.
 
 - [**Jsonwebtoken**](https://www.npmjs.com/package/jsonwebtoken) is a package that allows you to generate and verify JSON Web Tokens (JWT). JWTs are used for securely transmitting information between parties as a JSON object. They are commonly used for authentication and authorization processes.
 
