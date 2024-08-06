@@ -1,0 +1,32 @@
+.UserInfosForm {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 1.5rem;
+}
+
+.UserInfosForm > h2 {
+   font-size: 20px;
+}
+
+.UserInfosForm > div {
+   display: flex;
+   gap: 1rem;
+   width: 90%;
+}
+
+.UserInfoInput {
+   border: none;
+   outline: none;
+   background-color: var(--inputColor);
+   border-radius: 8px;
+   padding: 20px;
+   flex: 1;
+}
+
+.Btn--UserInfo {
+   width: 8rem;
+   height: 3rem;
+   align-self: center;
+}

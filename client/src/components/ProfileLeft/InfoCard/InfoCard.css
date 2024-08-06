@@ -1,0 +1,31 @@
+.InfoCard {
+   display: flex;
+   flex-direction: column;
+   gap: 0.75rem;
+   background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+   padding: 1rem;
+   border-radius: 1rem;
+   width: 95%;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.InfoHead {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.InfoHead > h2 {
+   font-size: 18px;
+}
+
+.InfoHead > div:hover {
+   cursor: pointer;
+}
+
+.Btn--Logout {
+   width: 7rem;
+   height: 2rem;
+   margin-top: 6rem;
+   align-self: flex-end;
+}

@@ -1,0 +1,33 @@
+.Post {
+   display: flex;
+   flex-direction: column;   
+   padding: 1rem;
+   background-color: var(--cardColor);
+   border-radius: 1rem;
+   gap: 1rem;
+   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+   width: 100%;
+}
+
+.Post > img {
+   width: auto;
+   max-height: auto;
+   object-fit: cover;
+   border-radius: 0.5rem;
+   align-self: center;
+}
+
+.PostReactions {
+   display: flex;
+   align-items: flex-start;
+   gap: 1.5rem;
+}
+
+.PostIcon {
+   cursor: pointer;
+}
+
+.Post > span:nth-of-type(1) {
+   color: var(--gray);
+   font-size: 12px;
+}

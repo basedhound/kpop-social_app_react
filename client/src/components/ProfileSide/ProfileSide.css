@@ -1,0 +1,16 @@
+.ProfileSide {
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+   overflow: auto;
+   margin-right: 0.5rem;
+   margin-left: 0.5rem;
+}
+
+.ProfileCenter {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+}
+

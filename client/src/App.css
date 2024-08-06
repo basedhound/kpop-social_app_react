@@ -1,0 +1,104 @@
+:root {
+   --yellow: #f5c32c;
+   --orange: #fca61f;
+   --black: #242d49;
+   --gray: rgba(36, 45, 73, 0.65);
+   --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+   --hrColor: #cfcdcd;
+   --cardColor: #F9F9F8 ;
+   --buttonBg: linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
+   --inputColor: rgba(40, 52, 62, 0.07);
+   --photo: #4cb256;
+   --video: #4a4eb7;
+   --location: #ef5757;
+   --schedule: #e1ae4a;
+}
+
+* {
+   box-sizing: border-box;
+   /* margin: 0; */
+   /* padding: 0; */
+   font-family: "Inter", sans-serif;
+   text-decoration: none;
+}
+
+body {
+   margin: 0;
+   background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+img {
+   max-width: 100%;
+}
+
+p {
+   font-size: 16px;
+}
+
+a , a:visited {
+   color: inherit;
+}
+
+.App {
+   overflow: hidden;
+   color: var(--black);
+   padding: 1rem 1rem;
+   background-attachment: local;
+   margin: auto;
+   max-width: 1600px;
+   background-image: linear-gradient(
+      to top,
+      #f3e7e9 0%,
+      #e3eeff 99%,
+      #e3eeff 100%
+   );
+}
+
+.blur {
+   position: absolute;
+   width: 22rem;
+   height: 14rem;
+   border-radius: 50%;
+   background: #a6ddf0;
+   filter: blur(72px);
+}
+
+.Button {
+   font-weight: 600;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: white;
+   border: none;
+   border-radius: 0.5rem;
+   background: var(--buttonBg);
+   transition: all 100ms ease-out;
+   /* cursor: pointer; */
+}
+
+.Button:hover {
+   cursor: pointer;
+   color: var(--orange);
+   background: transparent;
+   border: 2px solid var(--orange);
+}
+
+.Button:disabled {
+   background: silver;
+   pointer-events: none; /* Unclickable */
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+   display: none;
+}
+
+/* ::-webkit-scrollbar {
+   width: 5px;
+}
+::-webkit-scrollbar-track {
+   background-color: whitesmoke;
+}
+::-webkit-scrollbar-thumb {
+   background-color: lightgrey;
+} */
